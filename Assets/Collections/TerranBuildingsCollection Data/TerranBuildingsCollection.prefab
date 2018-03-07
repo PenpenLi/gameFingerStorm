@@ -1,0 +1,759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TerranBuildingsCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Terran_ArtilleryLab_Blue
+    boundsData:
+    - {x: -2, y: -1.5, z: 0}
+    - {x: 48, y: 45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 22, y: -24, z: 0}
+    - {x: -26, y: 21, z: 0}
+    - {x: 22, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .429691404, y: .384767592}
+    - {x: .617183566, y: .384767592}
+    - {x: .429691404, y: .472654283}
+    - {x: .617183566, y: .472654283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d885303a661e8442975a74b92b1e766
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_ArtilleryLab_Red
+    boundsData:
+    - {x: -2, y: -1.5, z: 0}
+    - {x: 48, y: 45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 22, y: -24, z: 0}
+    - {x: -26, y: 21, z: 0}
+    - {x: 22, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .632816434, y: .427736342}
+    - {x: .820308566, y: .427736342}
+    - {x: .632816434, y: .515623033}
+    - {x: .820308566, y: .515623033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: e88acba75eed6b74abf4da2843bd5aab
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Aviary_Blue
+    boundsData:
+    - {x: -4, y: -2.5, z: 0}
+    - {x: 48, y: 53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: -29, z: 0}
+    - {x: 20, y: -29, z: 0}
+    - {x: -28, y: 24, z: 0}
+    - {x: 20, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .476566404, y: .183595702}
+    - {x: .476566404, y: .277341783}
+    - {x: .683589816, y: .183595702}
+    - {x: .683589816, y: .277341783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 194bda5c9ec98dc46b2458e70dfe6fa6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Aviary_Red
+    boundsData:
+    - {x: -4, y: -2.5, z: 0}
+    - {x: 48, y: 53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: -29, z: 0}
+    - {x: 20, y: -29, z: 0}
+    - {x: -28, y: 24, z: 0}
+    - {x: 20, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .699222684, y: .226564452}
+    - {x: .699222684, y: .320310533}
+    - {x: .906246066, y: .226564452}
+    - {x: .906246066, y: .320310533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: b162a389146fd6f418d97a2dfee80bfc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Barrack_Blue
+    boundsData:
+    - {x: -2.5, y: -2, z: 0}
+    - {x: 47, y: 44, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 21, y: -24, z: 0}
+    - {x: -26, y: 20, z: 0}
+    - {x: 21, y: 20, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .406253904, y: .480470717}
+    - {x: .589839816, y: .480470717}
+    - {x: .406253904, y: .566404283}
+    - {x: .589839816, y: .566404283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: b3b325a97ada290419619d6d09f61f84
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Barrack_Red
+    boundsData:
+    - {x: -2.5, y: -2, z: 0}
+    - {x: 47, y: 44, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 21, y: -24, z: 0}
+    - {x: -26, y: 20, z: 0}
+    - {x: 21, y: 20, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .605472684, y: .523439467}
+    - {x: .789058566, y: .523439467}
+    - {x: .605472684, y: .609373033}
+    - {x: .789058566, y: .609373033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 88249f281e2fe98479f426baa24fb124
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Church_Blue
+    boundsData:
+    - {x: -3, y: -.5, z: 0}
+    - {x: 50, y: 47, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: -24, z: 0}
+    - {x: 22, y: -24, z: 0}
+    - {x: -28, y: 23, z: 0}
+    - {x: 22, y: 23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .476566404, y: .285158217}
+    - {x: .671871066, y: .285158217}
+    - {x: .476566404, y: .376951158}
+    - {x: .671871066, y: .376951158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: ef4050221219cd148982210188867891
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Church_Red
+    boundsData:
+    - {x: -3, y: -.5, z: 0}
+    - {x: 50, y: 47, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -28, y: -24, z: 0}
+    - {x: 22, y: -24, z: 0}
+    - {x: -28, y: 23, z: 0}
+    - {x: 22, y: 23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .687503934, y: .328126967}
+    - {x: .882808566, y: .328126967}
+    - {x: .687503934, y: .419919908}
+    - {x: .882808566, y: .419919908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a80159a7f36aa34aae1176fc7943e4d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Fortress_Blue
+    boundsData:
+    - {x: -3, y: -2, z: 0}
+    - {x: 56, y: 56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -30, z: 0}
+    - {x: 25, y: -30, z: 0}
+    - {x: -31, y: 26, z: 0}
+    - {x: 25, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .183595702}
+    - {x: .226558596, y: .183595702}
+    - {x: .00781640597, y: .292966783}
+    - {x: .226558596, y: .292966783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: d90ec5c0b729336499c0c67ce6d1e8ad
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Fortress_Red
+    boundsData:
+    - {x: -3, y: -2, z: 0}
+    - {x: 56, y: 56, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -30, z: 0}
+    - {x: 25, y: -30, z: 0}
+    - {x: -31, y: 26, z: 0}
+    - {x: 25, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .242191404, y: .183595702}
+    - {x: .460933596, y: .183595702}
+    - {x: .242191404, y: .292966783}
+    - {x: .460933596, y: .292966783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: de53a3693cfbcab45bc7681e35947a56
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_MysterySchool_Blue
+    boundsData:
+    - {x: -1, y: -1, z: 0}
+    - {x: 50, y: 46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 24, y: -24, z: 0}
+    - {x: -26, y: 22, z: 0}
+    - {x: 24, y: 22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .300783217}
+    - {x: .203121096, y: .300783217}
+    - {x: .00781640597, y: .390623033}
+    - {x: .203121096, y: .390623033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: bfd51196da3c4b84ea51dcb26efe4d22
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_MysterySchool_Red
+    boundsData:
+    - {x: -1, y: -1, z: 0}
+    - {x: 50, y: 46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 24, y: -24, z: 0}
+    - {x: -26, y: 22, z: 0}
+    - {x: 24, y: 22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .218753904, y: .300783217}
+    - {x: .414058596, y: .300783217}
+    - {x: .218753904, y: .390623033}
+    - {x: .414058596, y: .390623033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: f2960ce933ad32e49938e36b4d79e5d5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_SniperHouse_Blue
+    boundsData:
+    - {x: -2.5, y: -1.5, z: 0}
+    - {x: 47, y: 45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 21, y: -24, z: 0}
+    - {x: -26, y: 21, z: 0}
+    - {x: 21, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .398439467}
+    - {x: .191402346, y: .398439467}
+    - {x: .00781640597, y: .486326158}
+    - {x: .191402346, y: .486326158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5360cf3986be138428a2a794f402ad06
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_SniperHouse_Red
+    boundsData:
+    - {x: -2.5, y: -1.5, z: 0}
+    - {x: 47, y: 45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -24, z: 0}
+    - {x: 21, y: -24, z: 0}
+    - {x: -26, y: 21, z: 0}
+    - {x: 21, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .207035154, y: .398439467}
+    - {x: .390621096, y: .398439467}
+    - {x: .207035154, y: .486326158}
+    - {x: .390621096, y: .486326158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8554c174ca8ac87459c73a3d394cbaa1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Temple_Blue
+    boundsData:
+    - {x: -3, y: -2.5, z: 0}
+    - {x: 54, y: 53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30, y: -29, z: 0}
+    - {x: 24, y: -29, z: 0}
+    - {x: -30, y: 24, z: 0}
+    - {x: 24, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .781253934, y: .00390820298}
+    - {x: .992183566, y: .00390820298}
+    - {x: .781253934, y: .107419923}
+    - {x: .992183566, y: .107419923}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 95fea8973d0237541b013f5748ed8bfb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_Temple_Red
+    boundsData:
+    - {x: -3, y: -2.5, z: 0}
+    - {x: 54, y: 53, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30, y: -29, z: 0}
+    - {x: 24, y: -29, z: 0}
+    - {x: -30, y: 24, z: 0}
+    - {x: 24, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .781253934, y: .115236327}
+    - {x: .992183566, y: .115236327}
+    - {x: .781253934, y: .218748048}
+    - {x: .992183566, y: .218748048}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: bad5e269ac4475249b7ce193cbd74da2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_TheMainCity_Blue
+    boundsData:
+    - {x: -2.5, y: -2.99999809, z: 0}
+    - {x: 95, y: 88, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 100, y: 100, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -50, y: -47, z: 0}
+    - {x: 45, y: -47, z: 0}
+    - {x: -50, y: 41.0000038, z: 0}
+    - {x: 45, y: 41.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .00390820298}
+    - {x: .378902346, y: .00390820298}
+    - {x: .00781640597, y: .175779298}
+    - {x: .378902346, y: .175779298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 59f70cea06d690e47b77ead366a5d48f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Terran_TheMainCity_Red
+    boundsData:
+    - {x: -2.5, y: -2.99999809, z: 0}
+    - {x: 95, y: 88, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 100, y: 100, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -50, y: -47, z: 0}
+    - {x: 45, y: -47, z: 0}
+    - {x: -50, y: 41.0000038, z: 0}
+    - {x: 45, y: 41.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .394535154, y: .00390820298}
+    - {x: .765621066, y: .00390820298}
+    - {x: .394535154, y: .175779298}
+    - {x: .765621066, y: .175779298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6fcc4013b43f93647950776dcb47615a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0d7587ec9b1ec9c4ab28cc0f6245c9bf, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 79c05502cdb0a104094dc67ba167b107, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 9bb5ebc2e9a1f344989bc34119de077b
+  spriteCollectionName: TerranBuildingsCollection
+  assetName: TerranBuildingsCollection
+  loadable: 1
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 1419894848
+  dataGuid: 7f52110206776c84189eeef673035000
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

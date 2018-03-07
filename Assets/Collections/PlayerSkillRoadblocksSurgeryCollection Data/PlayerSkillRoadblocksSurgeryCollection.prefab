@@ -1,0 +1,645 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PlayerSkillRoadblocksSurgeryCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PlayersSkills_RoadblocksSurgery_0001
+    boundsData:
+    - {x: -95, y: 160, z: 0}
+    - {x: 34, y: 34.0000153, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -112, y: 142.999985, z: 0}
+    - {x: -78, y: 142.999985, z: 0}
+    - {x: -112, y: 177, z: 0}
+    - {x: -78, y: 177, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .934571266}
+    - {x: .035155274, y: .934571266}
+    - {x: .00195410149, y: .967772484}
+    - {x: .035155274, y: .967772484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 75e3a10905bbd44489464514c0af46c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0002
+    boundsData:
+    - {x: -10.5000038, y: 133.5, z: 0}
+    - {x: 213, y: 99, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -117, y: 84, z: 0}
+    - {x: 95.9999924, y: 84, z: 0}
+    - {x: -117, y: 183, z: 0}
+    - {x: 95.9999924, y: 183, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .622071266, y: .182618171}
+    - {x: .830077171, y: .182618171}
+    - {x: .622071266, y: .279295892}
+    - {x: .830077171, y: .279295892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7f62692e01af9400f99d92ead3957884
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0003
+    boundsData:
+    - {x: -12.0000038, y: 99, z: 0}
+    - {x: 218, y: 168, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -121, y: 14.9999933, z: 0}
+    - {x: 96.9999924, y: 14.9999933, z: 0}
+    - {x: -121, y: 183, z: 0}
+    - {x: 96.9999924, y: 183, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .833985329, y: .182618171}
+    - {x: .833985329, y: .395506829}
+    - {x: .998045921, y: .182618171}
+    - {x: .998045921, y: .395506829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 34ff436a19fe74b0ca80b1a95c495f02
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0004
+    boundsData:
+    - {x: -5.00000381, y: 65.5, z: 0}
+    - {x: 238, y: 235, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -124, y: -52.0000038, z: 0}
+    - {x: 113.999992, y: -52.0000038, z: 0}
+    - {x: -124, y: 183, z: 0}
+    - {x: 113.999992, y: 183, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .565430641, y: .637696266}
+    - {x: .565430641, y: .870116234}
+    - {x: .794920921, y: .637696266}
+    - {x: .794920921, y: .870116234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 01d227a1df5d947e483b27d5b9bf8e71
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0005
+    boundsData:
+    - {x: -5.49999619, y: 34.9999962, z: 0}
+    - {x: 247, y: 294, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -129, y: -112.000008, z: 0}
+    - {x: 118.000008, y: -112.000008, z: 0}
+    - {x: -129, y: 182, z: 0}
+    - {x: 118.000008, y: 182, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .320313483, y: .679688454}
+    - {x: .561522484, y: .679688454}
+    - {x: .320313483, y: .966795921}
+    - {x: .561522484, y: .966795921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: ef559b3cb47d24bfd88c199d76dfb1e3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0006
+    boundsData:
+    - {x: -7.50000381, y: 18, z: 0}
+    - {x: 245, y: 322, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -130, y: -143, z: 0}
+    - {x: 114.999992, y: -143, z: 0}
+    - {x: -130, y: 179, z: 0}
+    - {x: 114.999992, y: 179, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .691407204}
+    - {x: .00195410149, y: .930663109}
+    - {x: .316405267, y: .691407204}
+    - {x: .316405267, y: .930663109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: ab7dced4efcb6455fb4b8f3ad9c7d3df
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0007
+    boundsData:
+    - {x: -8.5, y: -.500007629, z: 0}
+    - {x: 239, y: 341, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -128, y: -171, z: 0}
+    - {x: 111, y: -171, z: 0}
+    - {x: -128, y: 169.999985, z: 0}
+    - {x: 111, y: 169.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .235350579, y: .00195410149}
+    - {x: .00195410149, y: .334959954}
+    - {x: .235350579, y: .334959954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 020e1030f339645adbbed05bc5728a50
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0008
+    boundsData:
+    - {x: -11.9999962, y: -8.50000763, z: 0}
+    - {x: 228, y: 357, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -126, y: -187, z: 0}
+    - {x: 102.000008, y: -187, z: 0}
+    - {x: -126, y: 169.999985, z: 0}
+    - {x: 102.000008, y: 169.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .338868171}
+    - {x: .224608392, y: .338868171}
+    - {x: .00195410149, y: .687499046}
+    - {x: .224608392, y: .687499046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 70ddcb6709fa34bd8a9a5995a309d2c2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0009
+    boundsData:
+    - {x: -11.4999962, y: -14.5, z: 0}
+    - {x: 227, y: 345, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -125, y: -187, z: 0}
+    - {x: 102.000008, y: -187, z: 0}
+    - {x: -125, y: 158, z: 0}
+    - {x: 102.000008, y: 158, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .228516608, y: .338868171}
+    - {x: .450194329, y: .338868171}
+    - {x: .228516608, y: .675780296}
+    - {x: .450194329, y: .675780296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3fa93631c9d6a49569dc34a385a2b6c9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0010
+    boundsData:
+    - {x: 4.00000381, y: -19.5, z: 0}
+    - {x: 198, y: 345, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95, y: -192, z: 0}
+    - {x: 103.000008, y: -192, z: 0}
+    - {x: -95, y: 153, z: 0}
+    - {x: 103.000008, y: 153, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .239258796, y: .00195410149}
+    - {x: .239258796, y: .195311517}
+    - {x: .576170921, y: .00195410149}
+    - {x: .576170921, y: .195311517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: ec247b91f7c654f40bde30409556c883
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0011
+    boundsData:
+    - {x: -4.5, y: -20.5, z: 0}
+    - {x: 181, y: 347, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95, y: -194, z: 0}
+    - {x: 86, y: -194, z: 0}
+    - {x: -95, y: 153, z: 0}
+    - {x: 86, y: 153, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .454102546, y: .294922858}
+    - {x: .630858421, y: .294922858}
+    - {x: .454102546, y: .633788109}
+    - {x: .630858421, y: .633788109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: cc93c8fcd5a7f4fb0802dbf297046d65
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0012
+    boundsData:
+    - {x: -4.5, y: -21.5, z: 0}
+    - {x: 181, y: 347, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95, y: -195, z: 0}
+    - {x: 86, y: -195, z: 0}
+    - {x: -95, y: 152, z: 0}
+    - {x: 86, y: 152, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .580079079, y: .00195410149}
+    - {x: .580079079, y: .178709954}
+    - {x: .918944359, y: .00195410149}
+    - {x: .918944359, y: .178709954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: ddc886b0e66b2496e854fc0343e16869
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0013
+    boundsData:
+    - {x: -14, y: -79, z: 0}
+    - {x: 94, y: 228, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -193, z: 0}
+    - {x: 33, y: -193, z: 0}
+    - {x: -61, y: 35, z: 0}
+    - {x: 33, y: 35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .239258796, y: .199219733}
+    - {x: .239258796, y: .291014642}
+    - {x: .461913079, y: .199219733}
+    - {x: .461913079, y: .291014642}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: f55c3852abe2949c483dc3a67b9c1a26
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0014
+    boundsData:
+    - {x: -17.9999962, y: -116, z: 0}
+    - {x: 86.0000076, y: 156, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -194, z: 0}
+    - {x: 25.0000076, y: -194, z: 0}
+    - {x: -61, y: -38.0000038, z: 0}
+    - {x: 25.0000076, y: -38.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .465821296, y: .199219733}
+    - {x: .465821296, y: .283202142}
+    - {x: .618163109, y: .199219733}
+    - {x: .618163109, y: .283202142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4851d9d7df108494b86ed5d74c11b741
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_RoadblocksSurgery_0015
+    boundsData:
+    - {x: -4.50000048, y: -16.5, z: 0}
+    - {x: .999999046, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: -5, y: -17, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -5, y: -17, z: 0}
+    - {x: -4.00000095, y: -17, z: 0}
+    - {x: -5, y: -16, z: 0}
+    - {x: -4.00000095, y: -16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .971680641}
+    - {x: -.000977539108, y: .971680641}
+    - {x: .00195410149, y: .968749046}
+    - {x: -.000977539108, y: .968749046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+    materialId: 0
+    sourceTextureGUID: a496dda1e49bc4be2989508a12520645
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 99f13faee34614decb7cf457dbeca60f, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 2fcbe89e8c10e414780508f116dfdbc9, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b697fdaee2c0d486596808dba1d0e9ec
+  spriteCollectionName: PlayerSkillRoadblocksSurgeryCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 787045739
+  dataGuid: bed1ad19281ad455091732834711a3c9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

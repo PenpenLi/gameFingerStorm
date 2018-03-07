@@ -1,0 +1,645 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PlayerSkillHealCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PlayersSkills_Heal_0001
+    boundsData:
+    - {x: 6, y: 6.49999905, z: 0}
+    - {x: 256, y: 19.0000057, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -122, y: -3.00000334, z: 0}
+    - {x: 134, y: -3.00000334, z: 0}
+    - {x: -122, y: 16.0000019, z: 0}
+    - {x: 134, y: 16.0000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .961915016, y: .149414554}
+    - {x: .961915016, y: .274413586}
+    - {x: .980467796, y: .149414554}
+    - {x: .980467796, y: .274413586}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a3c763344e4848ff8fe2029da20f5d3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0002
+    boundsData:
+    - {x: 3.50000381, y: 7.99999619, z: 0}
+    - {x: 203, y: 160, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -98, y: -72, z: 0}
+    - {x: 105.000008, y: -72, z: 0}
+    - {x: -98, y: 87.9999924, z: 0}
+    - {x: 105.000008, y: 87.9999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .441406727}
+    - {x: .200194329, y: .441406727}
+    - {x: .00195410149, y: .519530773}
+    - {x: .200194329, y: .519530773}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: aa91658fc0e884067a826e7262a61be9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0003
+    boundsData:
+    - {x: 6.00000381, y: 9.00000381, z: 0}
+    - {x: 204, y: 224, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -96, y: -103, z: 0}
+    - {x: 108.000008, y: -103, z: 0}
+    - {x: -96, y: 121.000008, z: 0}
+    - {x: 108.000008, y: 121.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .642579079, y: .487305164}
+    - {x: .642579079, y: .586913586}
+    - {x: .861327171, y: .487305164}
+    - {x: .861327171, y: .586913586}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1fd99ea08caef4ad2a5e886531f5a086
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0004
+    boundsData:
+    - {x: 6, y: 8.50000763, z: 0}
+    - {x: 284, y: 171.000015, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -136, y: -77, z: 0}
+    - {x: 148, y: -77, z: 0}
+    - {x: -136, y: 94.0000153, z: 0}
+    - {x: 148, y: 94.0000153, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .791016579, y: .149414554}
+    - {x: .791016579, y: .288085461}
+    - {x: .958006859, y: .149414554}
+    - {x: .958006859, y: .288085461}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3c1cec66732d34a8e9c36a10ac09aab6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0005
+    boundsData:
+    - {x: 1, y: 11.5, z: 0}
+    - {x: 300, y: 135, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -56, z: 0}
+    - {x: 151, y: -56, z: 0}
+    - {x: -149, y: 79, z: 0}
+    - {x: 151, y: 79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .865235329, y: .487305164}
+    - {x: .865235329, y: .633788586}
+    - {x: .997069359, y: .487305164}
+    - {x: .997069359, y: .633788586}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4b3af920137bd4d09ba0251db6e51920
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0006
+    boundsData:
+    - {x: 1, y: 8.99999619, z: 0}
+    - {x: 300, y: 204, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -93, z: 0}
+    - {x: 151, y: -93, z: 0}
+    - {x: -149, y: 110.999992, z: 0}
+    - {x: 151, y: 110.999992, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .791016579, y: .000977050746}
+    - {x: .791016579, y: .147460446}
+    - {x: .990233421, y: .000977050746}
+    - {x: .990233421, y: .147460446}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: ac063880763424cc5b3fbb57ca421401
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0007
+    boundsData:
+    - {x: 1, y: 9, z: 0}
+    - {x: 300, y: 238, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -110, z: 0}
+    - {x: 151, y: -110, z: 0}
+    - {x: -149, y: 128, z: 0}
+    - {x: 151, y: 128, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .345704108, y: .431152821}
+    - {x: .638670921, y: .431152821}
+    - {x: .345704108, y: .547362804}
+    - {x: .638670921, y: .547362804}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 194efbd9536ec47cd895a028909b556b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0008
+    boundsData:
+    - {x: 1, y: 60, z: 0}
+    - {x: 300, y: 358, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -149, y: 239, z: 0}
+    - {x: 151, y: 239, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .367188483, y: .282715321}
+    - {x: .367188483, y: .429198742}
+    - {x: .716795921, y: .282715321}
+    - {x: .716795921, y: .429198742}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: d8f8fba2dc0bf4b3f9b36f2eb8698bbd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0009
+    boundsData:
+    - {x: 1, y: 55, z: 0}
+    - {x: 300, y: 348, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -149, y: 229, z: 0}
+    - {x: 151, y: 229, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .292969227}
+    - {x: .00195410149, y: .439452648}
+    - {x: .341795892, y: .292969227}
+    - {x: .341795892, y: .439452648}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6523a7c1ee494912aafc7ea61570176
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0010
+    boundsData:
+    - {x: 1, y: 66, z: 0}
+    - {x: 300, y: 370, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -149, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -149, y: 251, z: 0}
+    - {x: 151, y: 251, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .144531742}
+    - {x: .00195410149, y: .291015148}
+    - {x: .363280267, y: .144531742}
+    - {x: .363280267, y: .291015148}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 014dd13fce8134cc5bab53f0896603fb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0011
+    boundsData:
+    - {x: 6, y: 81, z: 0}
+    - {x: 290, y: 400, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -139, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -139, y: 281, z: 0}
+    - {x: 151, y: 281, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .000977050746}
+    - {x: .00195410149, y: .142577633}
+    - {x: .392577142, y: .000977050746}
+    - {x: .392577142, y: .142577633}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 745274af0aae34296b0f4f488144099c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0012
+    boundsData:
+    - {x: 8, y: 81, z: 0}
+    - {x: 286, y: 400, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -135, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -135, y: 281, z: 0}
+    - {x: 151, y: 281, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .396485358, y: .000977050746}
+    - {x: .396485358, y: .140624508}
+    - {x: .787108421, y: .000977050746}
+    - {x: .787108421, y: .140624508}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: cf0ce70ec70774db1ae93cdcbf29b670
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0013
+    boundsData:
+    - {x: 9.5, y: 81, z: 0}
+    - {x: 283, y: 400, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -132, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -132, y: 281, z: 0}
+    - {x: 151, y: 281, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .396485358, y: .142578617}
+    - {x: .396485358, y: .280761242}
+    - {x: .787108421, y: .142578617}
+    - {x: .787108421, y: .280761242}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 167a5eec161d4472c910429e4c2c7e2c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0014
+    boundsData:
+    - {x: 21, y: 81, z: 0}
+    - {x: 260, y: 400, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -109, y: -119, z: 0}
+    - {x: 151, y: -119, z: 0}
+    - {x: -109, y: 281, z: 0}
+    - {x: 151, y: 281, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .720704079, y: .290039539}
+    - {x: .974608421, y: .290039539}
+    - {x: .720704079, y: .485351086}
+    - {x: .974608421, y: .485351086}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: f1f172532a81e4748ab1a50df48bcb6e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Heal_0015
+    boundsData:
+    - {x: 1.49999952, y: 81.5, z: 0}
+    - {x: .999999046, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 1, y: 81, z: 0}
+    - {x: 300, y: 400, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 1, y: 81, z: 0}
+    - {x: 1.99999905, y: 81, z: 0}
+    - {x: 1, y: 82, z: 0}
+    - {x: 1.99999905, y: 82, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .994141579, y: .000977050746}
+    - {x: .991209984, y: .000977050746}
+    - {x: .994141579, y: -.000488769554}
+    - {x: .991209984, y: -.000488769554}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 30ff90802070c4836b9ecffb553cd657
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 1d5cd811b846548f7a4980d6ece4fc64, type: 2}
+  textures:
+  - {fileID: 2800000, guid: e077d6af325b4413fbb98d13fc4ac580, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 27681a21271f446c0aad651ace276137
+  spriteCollectionName: PlayerSkillHealCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 729816041
+  dataGuid: 04ca499ab794842ffadf8f3ad1535e4a
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

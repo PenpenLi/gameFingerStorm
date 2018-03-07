@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: RoadBlockCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Barrier_0001
+    boundsData:
+    - {x: -4.49999905, y: .5, z: 0}
+    - {x: 53, y: 43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -21, z: 0}
+    - {x: 22.0000019, y: -21, z: 0}
+    - {x: -31, y: 22, z: 0}
+    - {x: 22.0000019, y: 22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .183597654}
+    - {x: .429679692, y: .183597654}
+    - {x: .0156328119, y: .351558596}
+    - {x: .429679692, y: .351558596}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: 65aec7a84d30c7d469d5ea7f907a69f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Barrier_0002
+    boundsData:
+    - {x: -4, y: 0, z: 0}
+    - {x: 54, y: 42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -21, z: 0}
+    - {x: 23, y: -21, z: 0}
+    - {x: -31, y: 21, z: 0}
+    - {x: 23, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .460945308, y: .359378904}
+    - {x: .882804692, y: .359378904}
+    - {x: .460945308, y: .523433566}
+    - {x: .882804692, y: .523433566}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: ca496d3941d7cef479e564956b5b6569
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Barrier_0003
+    boundsData:
+    - {x: -3.00000095, y: 0, z: 0}
+    - {x: 56, y: 42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -21, z: 0}
+    - {x: 24.9999981, y: -21, z: 0}
+    - {x: -31, y: 21, z: 0}
+    - {x: 24.9999981, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .507820308, y: .179691404}
+    - {x: .945304692, y: .179691404}
+    - {x: .507820308, y: .343746096}
+    - {x: .945304692, y: .343746096}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: e31aee874b4077441b43bfd72b915a1c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Barrier_0004
+    boundsData:
+    - {x: -1.5, y: -1.5, z: 0}
+    - {x: 59, y: 41, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -22, z: 0}
+    - {x: 28, y: -22, z: 0}
+    - {x: -31, y: 19, z: 0}
+    - {x: 28, y: 19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .00781640597}
+    - {x: .476554692, y: .00781640597}
+    - {x: .0156328119, y: .167964846}
+    - {x: .476554692, y: .167964846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2005197962cecd849ab17ecba5ad4893
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Barrier_0005
+    boundsData:
+    - {x: 0, y: -4.00000048, z: 0}
+    - {x: 60, y: 40, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30, y: -24, z: 0}
+    - {x: 30, y: -24, z: 0}
+    - {x: -30, y: 15.999999, z: 0}
+    - {x: 30, y: 15.999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .507820308, y: .00781640597}
+    - {x: .976554692, y: .00781640597}
+    - {x: .507820308, y: .164058596}
+    - {x: .976554692, y: .164058596}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: dbdea7dde300a9e408e211bb6263d0fd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Barrier_0006
+    boundsData:
+    - {x: -5, y: -5.99999952, z: 0}
+    - {x: 50, y: 34, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 62, y: 48, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -30, y: -23, z: 0}
+    - {x: 20, y: -23, z: 0}
+    - {x: -30, y: 11.000001, z: 0}
+    - {x: 20, y: 11.000001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .367191404}
+    - {x: .406242192, y: .367191404}
+    - {x: .0156328119, y: .499996096}
+    - {x: .406242192, y: .499996096}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d14397abd69b054993ca21ccd9498bd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 028e07395c74bfc44993096a61ff7c68, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a1813323bd0090b41b14829c1a7913fc, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 0184c78c39c0a624aafca7db6ebe6aca
+  spriteCollectionName: RoadBlockCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 160851837
+  dataGuid: 94046b57de8db194cbf5e1cd4f03dfc7
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

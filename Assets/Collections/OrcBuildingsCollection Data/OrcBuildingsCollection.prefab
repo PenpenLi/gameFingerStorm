@@ -1,0 +1,759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: OrcBuildingsCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Orc_AnimalFarm_Blue
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 52, y: 51, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -26, z: 0}
+    - {x: 26, y: -26, z: 0}
+    - {x: -26, y: 25, z: 0}
+    - {x: 26, y: 25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .742191434, y: .474611342}
+    - {x: .945308566, y: .474611342}
+    - {x: .742191434, y: .574216783}
+    - {x: .945308566, y: .574216783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: fd3330549ab057b43bea60163ea1807b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_AnimalFarm_Red
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 52, y: 51, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26, y: -26, z: 0}
+    - {x: 26, y: -26, z: 0}
+    - {x: -26, y: 25, z: 0}
+    - {x: 26, y: 25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .492191404, y: .556642592}
+    - {x: .695308566, y: .556642592}
+    - {x: .492191404, y: .656248033}
+    - {x: .695308566, y: .656248033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: e9d9452a9cadd184aa17339dcddb98ae
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_OrcFactory_Blue
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 64, y: 49, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -25, z: 0}
+    - {x: 32, y: -25, z: 0}
+    - {x: -32, y: 24, z: 0}
+    - {x: 32, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .789066434, y: .208986327}
+    - {x: .789066434, y: .333982408}
+    - {x: .980464816, y: .208986327}
+    - {x: .980464816, y: .333982408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2cfa932628c2c6f429e45442780b501d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_OrcFactory_Red
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 64, y: 49, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -25, z: 0}
+    - {x: 32, y: -25, z: 0}
+    - {x: -32, y: 24, z: 0}
+    - {x: 32, y: 24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .789066434, y: .341798842}
+    - {x: .789066434, y: .466794908}
+    - {x: .980464816, y: .341798842}
+    - {x: .980464816, y: .466794908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 638e904fdfd7b63488f7c08ae600487d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_ShamanTent_Blue
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 64, y: 54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -28, z: 0}
+    - {x: 32, y: -28, z: 0}
+    - {x: -32, y: 26, z: 0}
+    - {x: 32, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .523441434, y: .208986327}
+    - {x: .773433566, y: .208986327}
+    - {x: .523441434, y: .314451158}
+    - {x: .773433566, y: .314451158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5bed506dbd0d70d4bb9905d08edacb62
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_ShamanTent_Red
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 64, y: 54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -28, z: 0}
+    - {x: 32, y: -28, z: 0}
+    - {x: -32, y: 26, z: 0}
+    - {x: 32, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .523441434, y: .322267592}
+    - {x: .773433566, y: .322267592}
+    - {x: .523441434, y: .427732408}
+    - {x: .773433566, y: .427732408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 75f0181f74bd3c94fa8b858c5bb4602d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TheMainCity_Blue
+    boundsData:
+    - {x: -5, y: -4.5, z: 0}
+    - {x: 118, y: 101, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -64, y: -55, z: 0}
+    - {x: 54, y: -55, z: 0}
+    - {x: -64, y: 46, z: 0}
+    - {x: 54, y: 46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .00390820298}
+    - {x: .468746096, y: .00390820298}
+    - {x: .00781640597, y: .201169923}
+    - {x: .468746096, y: .201169923}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9af6a7850e72bbb48b78f32b2bab5d87
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TheMainCity_Red
+    boundsData:
+    - {x: -5, y: -4.5, z: 0}
+    - {x: 118, y: 101, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -64, y: -55, z: 0}
+    - {x: 54, y: -55, z: 0}
+    - {x: -64, y: 46, z: 0}
+    - {x: 54, y: 46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .484378904, y: .00390820298}
+    - {x: .945308566, y: .00390820298}
+    - {x: .484378904, y: .201169923}
+    - {x: .945308566, y: .201169923}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: d563338e52a40d3428c329cb210d7a0d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_ThePound_Blue
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 62, y: 57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -29, z: 0}
+    - {x: 31, y: -29, z: 0}
+    - {x: -31, y: 28, z: 0}
+    - {x: 31, y: 28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .208986327}
+    - {x: .249996096, y: .208986327}
+    - {x: .00781640597, y: .320310533}
+    - {x: .249996096, y: .320310533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4537190a7084de146af94022a70e2c5b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_ThePound_Red
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 62, y: 57, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -29, z: 0}
+    - {x: 31, y: -29, z: 0}
+    - {x: -31, y: 28, z: 0}
+    - {x: 31, y: 28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .265628904, y: .208986327}
+    - {x: .507808566, y: .208986327}
+    - {x: .265628904, y: .320310533}
+    - {x: .507808566, y: .320310533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 90187233fc5bd6242bbca52d9a9de022
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TheTaurenVine_Blue
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 64, y: 54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -28, z: 0}
+    - {x: 32, y: -28, z: 0}
+    - {x: -32, y: 26, z: 0}
+    - {x: 32, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .328126967}
+    - {x: .257808596, y: .328126967}
+    - {x: .00781640597, y: .433591783}
+    - {x: .257808596, y: .433591783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: c1f9379e05a3d4c41afb00ba79d987eb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TheTaurenVine_Red
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 64, y: 54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -32, y: -28, z: 0}
+    - {x: 32, y: -28, z: 0}
+    - {x: -32, y: 26, z: 0}
+    - {x: 32, y: 26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .273441404, y: .328126967}
+    - {x: .273441404, y: .453123033}
+    - {x: .484371096, y: .328126967}
+    - {x: .484371096, y: .453123033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: c23b164ce69a6584eae90d43151255f3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TrollHouse_Blue
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 54, y: 43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -27, y: -22, z: 0}
+    - {x: 27, y: -22, z: 0}
+    - {x: -27, y: 21, z: 0}
+    - {x: 27, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250003904, y: .568361342}
+    - {x: .460933596, y: .568361342}
+    - {x: .250003904, y: .652341783}
+    - {x: .460933596, y: .652341783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7b50360c934ffab4ca48d1e90532bd4f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_TrollHouse_Red
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 54, y: 43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -27, y: -22, z: 0}
+    - {x: 27, y: -22, z: 0}
+    - {x: -27, y: 21, z: 0}
+    - {x: 27, y: 21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250003904, y: .660158217}
+    - {x: .460933596, y: .660158217}
+    - {x: .250003904, y: .744138658}
+    - {x: .460933596, y: .744138658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 32af4e8f3cea3764ca590716fe60561e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_WarriorHall_Blue
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 58, y: 51, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -29, y: -26, z: 0}
+    - {x: 29, y: -26, z: 0}
+    - {x: -29, y: 25, z: 0}
+    - {x: 29, y: 25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250003904, y: .460939467}
+    - {x: .476558596, y: .460939467}
+    - {x: .250003904, y: .560544908}
+    - {x: .476558596, y: .560544908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 39a9e02cbbc9c8643ba8e5e5c82e79fe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_WarriorHall_Red
+    boundsData:
+    - {x: 0, y: -.5, z: 0}
+    - {x: 58, y: 51, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -29, y: -26, z: 0}
+    - {x: 29, y: -26, z: 0}
+    - {x: -29, y: 25, z: 0}
+    - {x: 29, y: 25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .562501967}
+    - {x: .234371096, y: .562501967}
+    - {x: .00781640597, y: .662107408}
+    - {x: .234371096, y: .662107408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8b81b202a24673c48b9ad922cb5f68d8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_WyvernCamp_Blue
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 58, y: 58, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -29, y: -30, z: 0}
+    - {x: 29, y: -30, z: 0}
+    - {x: -29, y: 28, z: 0}
+    - {x: 29, y: 28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .441408217}
+    - {x: .234371096, y: .441408217}
+    - {x: .00781640597, y: .554685533}
+    - {x: .234371096, y: .554685533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 00ee9ff85271d7e468b2275ecee00c3e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Orc_WyvernCamp_Red
+    boundsData:
+    - {x: 0, y: -1, z: 0}
+    - {x: 58, y: 58, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 64, y: 64, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -29, y: -30, z: 0}
+    - {x: 29, y: -30, z: 0}
+    - {x: -29, y: 28, z: 0}
+    - {x: 29, y: 28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500003934, y: .435548842}
+    - {x: .726558566, y: .435548842}
+    - {x: .500003934, y: .548826158}
+    - {x: .726558566, y: .548826158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+    materialId: 0
+    sourceTextureGUID: 84f9fe8814b6a2643a1804f0a36d579d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: f003962d71d211744b26178706883701, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 82145e4c07ce28d4689f489c62d5d520, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 49a74142602ddc04a97809b8d2edb445
+  spriteCollectionName: OrcBuildingsCollection
+  assetName: OrcBuildingsCollection
+  loadable: 1
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 1419590203
+  dataGuid: eb984734e5a5dc24792bc5018a813977
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

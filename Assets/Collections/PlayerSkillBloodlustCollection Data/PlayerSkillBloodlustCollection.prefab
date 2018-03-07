@@ -1,0 +1,1595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PlayerSkillBloodlustCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PlayersSkills_Bloodlust_Halo_0001
+    boundsData:
+    - {x: 1, y: 0, z: 0}
+    - {x: 30, y: 18, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 9, z: 0}
+    - {x: 16, y: 9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .355470717, y: .724611342}
+    - {x: .414060533, y: .724611342}
+    - {x: .355470717, y: .759763658}
+    - {x: .414060533, y: .759763658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3f75480e4a2e97b42bce392d38fc013f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0002
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .490236342, y: .457033217}
+    - {x: .548826158, y: .457033217}
+    - {x: .490236342, y: .490232408}
+    - {x: .548826158, y: .490232408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d32379a605b4e747afc4e5c57b0584e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0003
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .556642592, y: .457033217}
+    - {x: .615232408, y: .457033217}
+    - {x: .556642592, y: .490232408}
+    - {x: .615232408, y: .490232408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: b664300e868ef5143ba940a5e06ea324
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0004
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .488283217, y: .712892592}
+    - {x: .546873033, y: .712892592}
+    - {x: .488283217, y: .746091783}
+    - {x: .546873033, y: .746091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2d64d244525cef24aa91e987491195e5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0005
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .554689467, y: .712892592}
+    - {x: .613279283, y: .712892592}
+    - {x: .554689467, y: .746091783}
+    - {x: .613279283, y: .746091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 46d2df9d96e48c1429e4f1b92675fa3f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0006
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .621095717, y: .712892592}
+    - {x: .679685533, y: .712892592}
+    - {x: .621095717, y: .746091783}
+    - {x: .679685533, y: .746091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: a3345e26b09bc7d498a90b8c37099015
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0007
+    boundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 29, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 15, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 15, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .431642592, y: .189455077}
+    - {x: .488279283, y: .189455077}
+    - {x: .431642592, y: .222654298}
+    - {x: .488279283, y: .222654298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: c355763a0b5326940aca7fcafb21ed0b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0008
+    boundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 29, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 15, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 15, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .496095717, y: .189455077}
+    - {x: .552732408, y: .189455077}
+    - {x: .496095717, y: .222654298}
+    - {x: .552732408, y: .222654298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6080611251249764b86b05dd5a20d398
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0009
+    boundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 29, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 15, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 15, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .560548842, y: .189455077}
+    - {x: .617185533, y: .189455077}
+    - {x: .560548842, y: .222654298}
+    - {x: .617185533, y: .222654298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 784228ae2189e7049b282a5f5fa08d0a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0010
+    boundsData:
+    - {x: .5, y: -.5, z: 0}
+    - {x: 29, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 15, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 15, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .613283217, y: .230470702}
+    - {x: .613283217, y: .287107408}
+    - {x: .646482408, y: .230470702}
+    - {x: .646482408, y: .287107408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: c731103c34a4dd84e8d40e446a880e0f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0011
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .519533217, y: .953126967}
+    - {x: .578123033, y: .953126967}
+    - {x: .519533217, y: .986326158}
+    - {x: .578123033, y: .986326158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: f5558eebef9e2a142b320467ffc85081
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Halo_0012
+    boundsData:
+    - {x: 1, y: -.5, z: 0}
+    - {x: 30, y: 17, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: -1, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -14, y: -9, z: 0}
+    - {x: 16, y: -9, z: 0}
+    - {x: -14, y: 8, z: 0}
+    - {x: 16, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .585939467, y: .953126967}
+    - {x: .644529283, y: .953126967}
+    - {x: .585939467, y: .986326158}
+    - {x: .644529283, y: .986326158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 66105aefd2c6df14393b6ef0fe2ad9f4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0001
+    boundsData:
+    - {x: .5, y: .5, z: 0}
+    - {x: 1, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: 1.00195503}
+    - {x: -.00195507822, y: 1.00195503}
+    - {x: .00390820298, y: .996091783}
+    - {x: -.00195507822, y: .996091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: ebf9d011e31ff94489bb51d97cc85157
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0002
+    boundsData:
+    - {x: 1, y: 21.5, z: 0}
+    - {x: 6, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -2, y: 21, z: 0}
+    - {x: 4, y: 21, z: 0}
+    - {x: -2, y: 22, z: 0}
+    - {x: 4, y: 22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .982423842}
+    - {x: .00390820298, y: .994138658}
+    - {x: .00585742202, y: .982423842}
+    - {x: .00585742202, y: .994138658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1e74789dbd8223c408e479a81bb754cc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0003
+    boundsData:
+    - {x: 1.5, y: 22, z: 0}
+    - {x: 91, y: 82, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -19, z: 0}
+    - {x: 47, y: -19, z: 0}
+    - {x: -44, y: 63, z: 0}
+    - {x: 47, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .431642592, y: .00390820298}
+    - {x: .431642592, y: .181638673}
+    - {x: .591794908, y: .00390820298}
+    - {x: .591794908, y: .181638673}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 548c13e62cffb3742b2132da984d1767
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0004
+    boundsData:
+    - {x: 1.5, y: 21.5, z: 0}
+    - {x: 83, y: 59, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -40, y: -8, z: 0}
+    - {x: 43, y: -8, z: 0}
+    - {x: -40, y: 51, z: 0}
+    - {x: 43, y: 51, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .599611342, y: .00390820298}
+    - {x: .599611342, y: .166013673}
+    - {x: .714841783, y: .00390820298}
+    - {x: .714841783, y: .166013673}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: e54281b92b5bda942a71af2f35bb7e13
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0005
+    boundsData:
+    - {x: 1, y: 18, z: 0}
+    - {x: 98, y: 92, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -48, y: -28, z: 0}
+    - {x: 50, y: -28, z: 0}
+    - {x: -48, y: 64, z: 0}
+    - {x: 50, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .519533217, y: .753908217}
+    - {x: .519533217, y: .945310533}
+    - {x: .699216783, y: .753908217}
+    - {x: .699216783, y: .945310533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: aa49061acb8d42847b245c9122ff0328
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0006
+    boundsData:
+    - {x: .5, y: 19.5, z: 0}
+    - {x: 105, y: 89, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -52, y: -25, z: 0}
+    - {x: 53, y: -25, z: 0}
+    - {x: -52, y: 64, z: 0}
+    - {x: 53, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .478517592, y: .500001967}
+    - {x: .478517592, y: .705076158}
+    - {x: .652341783, y: .500001967}
+    - {x: .652341783, y: .705076158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: fe6d146efe7a98f49bfaf2172cd1334a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0007
+    boundsData:
+    - {x: 1, y: 12, z: 0}
+    - {x: 92, y: 104, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -45, y: -40, z: 0}
+    - {x: 47, y: -40, z: 0}
+    - {x: -45, y: 64, z: 0}
+    - {x: 47, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .425783217, y: .246095702}
+    - {x: .605466783, y: .246095702}
+    - {x: .425783217, y: .449216783}
+    - {x: .605466783, y: .449216783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: e2974dcabe9467141bdf5ba44c74bd47
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0008
+    boundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 101, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -50, y: -64, z: 0}
+    - {x: 51, y: -64, z: 0}
+    - {x: -50, y: 64, z: 0}
+    - {x: 51, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .220705077, y: .519533217}
+    - {x: .220705077, y: .716794908}
+    - {x: .470701158, y: .519533217}
+    - {x: .470701158, y: .716794908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 176b77f51087bf74996ffcea235478ff
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0009
+    boundsData:
+    - {x: .5, y: 0, z: 0}
+    - {x: 99, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -49, y: -64, z: 0}
+    - {x: 50, y: -64, z: 0}
+    - {x: -49, y: 64, z: 0}
+    - {x: 50, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .261720717, y: .769533217}
+    - {x: .261720717, y: .962888658}
+    - {x: .511716783, y: .769533217}
+    - {x: .511716783, y: .962888658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 85a724244cffb2440a51a871cdcd2b7c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0010
+    boundsData:
+    - {x: 1, y: 0, z: 0}
+    - {x: 110, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -54, y: -64, z: 0}
+    - {x: 56, y: -64, z: 0}
+    - {x: -54, y: 64, z: 0}
+    - {x: 56, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .261720717}
+    - {x: .218748048, y: .261720717}
+    - {x: .00390820298, y: .511716783}
+    - {x: .218748048, y: .511716783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5df3a1aa505763148a82da6e4d9f04cc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0011
+    boundsData:
+    - {x: 8, y: 0, z: 0}
+    - {x: 112, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -48, y: -64, z: 0}
+    - {x: 64, y: -64, z: 0}
+    - {x: -48, y: 64, z: 0}
+    - {x: 64, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .222654298, y: .00390820298}
+    - {x: .00390820298, y: .253904283}
+    - {x: .222654298, y: .253904283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 80aa746d92fa43442bb90ff16e320680
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0012
+    boundsData:
+    - {x: 5.5, y: 1, z: 0}
+    - {x: 107, y: 126, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -48, y: -62, z: 0}
+    - {x: 59, y: -62, z: 0}
+    - {x: -48, y: 64, z: 0}
+    - {x: 59, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .519533217}
+    - {x: .212888673, y: .519533217}
+    - {x: .00390820298, y: .765623033}
+    - {x: .212888673, y: .765623033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3854056ad2e8a094299a6deb641c3bb6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0013
+    boundsData:
+    - {x: 6.5, y: 0, z: 0}
+    - {x: 103, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -45, y: -64, z: 0}
+    - {x: 58, y: -64, z: 0}
+    - {x: -45, y: 64, z: 0}
+    - {x: 58, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .773439467}
+    - {x: .00390820298, y: .974607408}
+    - {x: .253904283, y: .773439467}
+    - {x: .253904283, y: .974607408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: a54adaa2e404da74f99476f805c12b09
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0014
+    boundsData:
+    - {x: 1.5, y: 1, z: 0}
+    - {x: 99, y: 120, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -48, y: -59, z: 0}
+    - {x: 51, y: -59, z: 0}
+    - {x: -48, y: 61, z: 0}
+    - {x: 51, y: 61, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .230470702, y: .00390820298}
+    - {x: .423826158, y: .00390820298}
+    - {x: .230470702, y: .238279298}
+    - {x: .423826158, y: .238279298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: f0e6cb97399758344a1b5a784d2de875
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0015
+    boundsData:
+    - {x: 3, y: 0, z: 0}
+    - {x: 98, y: 128, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -46, y: -64, z: 0}
+    - {x: 52, y: -64, z: 0}
+    - {x: -46, y: 64, z: 0}
+    - {x: 52, y: 64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .226564452, y: .261720717}
+    - {x: .417966783, y: .261720717}
+    - {x: .226564452, y: .511716783}
+    - {x: .417966783, y: .511716783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 33df822169166af47a44ea5a13b22656
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Launch_0016
+    boundsData:
+    - {x: .5, y: .5, z: 0}
+    - {x: 1, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 128, y: 128, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: 1.00195503}
+    - {x: -.00195507822, y: 1.00195503}
+    - {x: .00390820298, y: .996091783}
+    - {x: -.00195507822, y: .996091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: ba167413d28eae34db71f649e1dd79e8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0000
+    boundsData:
+    - {x: -5, y: -4, z: 0}
+    - {x: 10, y: 24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: -16, z: 0}
+    - {x: 0, y: -16, z: 0}
+    - {x: -10, y: 8, z: 0}
+    - {x: 0, y: 8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .261720717, y: .970705092}
+    - {x: .261720717, y: .990232408}
+    - {x: .308591783, y: .970705092}
+    - {x: .308591783, y: .990232408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 23544711e2d588245868f1139bb60834
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0001
+    boundsData:
+    - {x: -2.5, y: -3, z: 0}
+    - {x: 15, y: 26, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: -16, z: 0}
+    - {x: 5, y: -16, z: 0}
+    - {x: -10, y: 10, z: 0}
+    - {x: 5, y: 10, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .613283217, y: .359376967}
+    - {x: .642576158, y: .359376967}
+    - {x: .613283217, y: .410154283}
+    - {x: .642576158, y: .410154283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: eabaf588238ecec4f8efe937df4cd0ff
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0002
+    boundsData:
+    - {x: -2.5, y: -1.5, z: 0}
+    - {x: 15, y: 29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: -16, z: 0}
+    - {x: 5, y: -16, z: 0}
+    - {x: -10, y: 13, z: 0}
+    - {x: 5, y: 13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .613283217, y: .294923842}
+    - {x: .642576158, y: .294923842}
+    - {x: .613283217, y: .351560533}
+    - {x: .642576158, y: .351560533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: f76816922600f63438cb2865cbb1ea20
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0003
+    boundsData:
+    - {x: -.5, y: 0, z: 0}
+    - {x: 19, y: 32, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: -16, z: 0}
+    - {x: 9, y: -16, z: 0}
+    - {x: -10, y: 16, z: 0}
+    - {x: 9, y: 16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .220705077, y: .724611342}
+    - {x: .220705077, y: .761716783}
+    - {x: .283201158, y: .724611342}
+    - {x: .283201158, y: .761716783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: b46ffd9c695f714408dcac2abe81e3e2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0004
+    boundsData:
+    - {x: -.5, y: 1.5, z: 0}
+    - {x: 19, y: 29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -10, y: -13, z: 0}
+    - {x: 9, y: -13, z: 0}
+    - {x: -10, y: 16, z: 0}
+    - {x: 9, y: 16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .291017592, y: .724611342}
+    - {x: .291017592, y: .761716783}
+    - {x: .347654283, y: .724611342}
+    - {x: .347654283, y: .761716783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: b5632ccdf0004114b8c9e2a49222d7fe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0005
+    boundsData:
+    - {x: 0, y: -1.5, z: 0}
+    - {x: 18, y: 29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -16, z: 0}
+    - {x: 9, y: -16, z: 0}
+    - {x: -9, y: 13, z: 0}
+    - {x: 9, y: 13, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .425783217, y: .457033217}
+    - {x: .425783217, y: .492185533}
+    - {x: .482419908, y: .457033217}
+    - {x: .482419908, y: .492185533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: b61291c5f0f2e334ca6b737be66e4b15
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0006
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 18, y: 30, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -15, z: 0}
+    - {x: 9, y: -15, z: 0}
+    - {x: -9, y: 15, z: 0}
+    - {x: 9, y: 15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .421876967, y: .724611342}
+    - {x: .421876967, y: .759763658}
+    - {x: .480466783, y: .724611342}
+    - {x: .480466783, y: .759763658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 55e47eeb2febf284ba9c80b3b42457e2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0007
+    boundsData:
+    - {x: 0, y: 1, z: 0}
+    - {x: 18, y: 28, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -13, z: 0}
+    - {x: 9, y: -13, z: 0}
+    - {x: -9, y: 15, z: 0}
+    - {x: 9, y: 15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .652345717, y: .953126967}
+    - {x: .652345717, y: .988279283}
+    - {x: .707029283, y: .953126967}
+    - {x: .707029283, y: .988279283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8af0b3b373d0de642afe8ccc797d8ddd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0008
+    boundsData:
+    - {x: 0, y: 2.5, z: 0}
+    - {x: 18, y: 27, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -11, z: 0}
+    - {x: 9, y: -11, z: 0}
+    - {x: -9, y: 16, z: 0}
+    - {x: 9, y: 16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .625001967, y: .173830077}
+    - {x: .625001967, y: .208982423}
+    - {x: .677732408, y: .173830077}
+    - {x: .677732408, y: .208982423}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 34032509b18667049a8020c8ee17d67c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0009
+    boundsData:
+    - {x: -3.5, y: 3, z: 0}
+    - {x: 11, y: 22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -8, z: 0}
+    - {x: 2, y: -8, z: 0}
+    - {x: -9, y: 14, z: 0}
+    - {x: 2, y: 14, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .316408217, y: .970705092}
+    - {x: .316408217, y: .992185533}
+    - {x: .359373033, y: .970705092}
+    - {x: .359373033, y: .992185533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: 52e5d0a872cf83a43a77d6fc96d24702
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0010
+    boundsData:
+    - {x: -3.5, y: 5, z: 0}
+    - {x: 11, y: 22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -9, y: -6, z: 0}
+    - {x: 2, y: -6, z: 0}
+    - {x: -9, y: 16, z: 0}
+    - {x: 2, y: 16, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .367189467, y: .970705092}
+    - {x: .367189467, y: .992185533}
+    - {x: .410154283, y: .970705092}
+    - {x: .410154283, y: .992185533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: b7564363c0460ef4abc016f8e086c4f1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayersSkills_Bloodlust_Vampire_0011
+    boundsData:
+    - {x: .5, y: .5, z: 0}
+    - {x: 1, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 32, y: 32, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: 1.00195503}
+    - {x: -.00195507822, y: 1.00195503}
+    - {x: .00390820298, y: .996091783}
+    - {x: -.00195507822, y: .996091783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+    materialId: 0
+    sourceTextureGUID: fc63190ba33500f449010a42d09df177
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 92a30e2d967a643d18cc9dcbbcc7e277, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b160a8f043f5c48ae8c980c959e9d4a1, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: a8ad878c42dab48a58ce82e13921106a
+  spriteCollectionName: PlayerSkillBloodlustCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: .5
+  buildKey: 1113687696
+  dataGuid: 3029991702167490e9f39ddba3b9a481
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
